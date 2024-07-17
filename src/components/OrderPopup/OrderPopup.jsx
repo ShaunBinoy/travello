@@ -36,7 +36,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup }) => {
               />
               <input
                 type="text"
-                placeholder="Address"
+                placeholder="Phone Number"
                 className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
               />
               <div className="flex justify-center">
