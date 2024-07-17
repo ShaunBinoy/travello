@@ -16,7 +16,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
           <FaUserCircle size={50} />
           <div>
             <h1>Hello User</h1>
-            <h1 className="text-sm text-slate-500">Premium user</h1>
+            <h1 className="text-sm text-slate-500">Travello.in</h1>
           </div>
         </div>
         <nav className="mt-12">
@@ -37,7 +37,10 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
       </div>
       <div className="footer">
         <h1>
-          Made with ❤ by <a href="https://dilshad-ahmed.github.io/">Dilshad</a>{" "}
+          2024 © Travello.in. All rights reserved ||{" "}
+          <a href="https://www.webstylesolutions.in/">
+            Design By WebStyle Solutions
+          </a>
         </h1>
       </div>
     </div>
