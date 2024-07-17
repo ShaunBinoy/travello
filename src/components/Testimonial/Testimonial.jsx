@@ -4,20 +4,20 @@ import Slider from "react-slick";
 const testimonialData = [
   {
     id: 1,
-    name: "Samuel",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Jishnu",
+    text: "I highly recommend Travello.in for their exceptional service and expertise. They made our corporate retreat a seamless and enjoyable experience.",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 1,
-    name: "John Doe",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Abinanth TK",
+    text: "The trip they co ordinated was just wow. Food and over all trip done very neatly.. I suggets every one to contact them for further trips",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 1,
-    name: "Smith",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Amrutha CEO",
+    text: "I highly recommend Travello.in for their exceptional service and expertise. They made our corporate retreat a seamless and enjoyable experience.",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -70,12 +70,11 @@ const Testimonial = () => {
             <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
               Testimonial
             </p>
-            <h1 className="text-3xl font-bold">Testimonial</h1>
+            <h1 className="text-3xl font-bold">Customer Reviews</h1>
             <p className="text-xs text-gray-400">
               {" "}
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero
-              nesciunt explicabo a! Laborum delectus aliquam labore, earum rerum
-              quam! Nulla?
+              Explore the invaluable insights and heartfelt feedback shared by
+              our customers about their unforgettable experiences with us!
             </p>
           </div>
           {/* testimonial section */}
