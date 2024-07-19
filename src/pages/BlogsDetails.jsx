@@ -18,12 +18,12 @@ const BlogsDetails = (props) => {
         />
       </div>
       <div className="container ">
-        <p className="text-slate-600 text-sm py-3">
+        <h1 className="text-2xl font-semibold  tracking-wide mt-4 uppercase ">{title}</h1>
+        <p className="text-slate-600 text-sm  mb-4 ">
           {" "}
           written by {author} on {date}
         </p>
-        <h1 className="text-2xl font-semibold">{title}</h1>
-        <p>{description}</p>
+        <p className="text-base font-sans text-left">{description}</p>
       </div>
 
       {/* All Blogs Section */}

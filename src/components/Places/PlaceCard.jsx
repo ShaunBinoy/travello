@@ -12,10 +12,11 @@ const PlaceCard = ({
   setDestination
 }) => {
 
-  const handleDestination=()=>{
-    setDestination(title)
-    handleOrderPopup()
-  }
+  const handleDestination = () => {
+    setDestination(title);
+    handleOrderPopup();
+  };
+
   return (
     <>
       <div
