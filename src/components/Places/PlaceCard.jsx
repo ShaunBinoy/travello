@@ -9,12 +9,18 @@ const PlaceCard = ({
   price,
   type,
   handleOrderPopup,
+  setDestination
 }) => {
+
+  const handleDestination=()=>{
+    setDestination(title)
+    handleOrderPopup()
+  }
   return (
     <>
       <div
         className="shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white cursor-pointer rounded-2xl"
-        onClick={handleOrderPopup}
+        onClick={handleDestination}
       >
         <div className="overflow-hidden rounded-2xl">
           <img

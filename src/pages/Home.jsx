@@ -15,8 +15,6 @@ import { Carousel } from "antd";
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
   
-  
-
   const handleOrderPopup = () => {
     setOrderPopup(!orderPopup);
   };

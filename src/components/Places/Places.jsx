@@ -64,7 +64,7 @@ const PlacesData = [
   },
 ];
 
-const Places = ({ handleOrderPopup }) => {
+const Places = ({ handleOrderPopup,setDestination }) => {
   useEffect(()=>{
     window.scrollTo(0, 0)
   },[])
@@ -78,9 +78,11 @@ const Places = ({ handleOrderPopup }) => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {PlacesData.map((item, index) => (
               <PlaceCard
+              setDestination={setDestination}
                 handleOrderPopup={handleOrderPopup}
                 key={index}
                 {...item}
+                
               />
             ))}
           </div>
