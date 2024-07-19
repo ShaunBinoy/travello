@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PlaceCard from "./PlaceCard";
 import Img1 from "../../assets/places/boat.jpg";
 import Img2 from "../../assets/places/tajmahal.jpg";
@@ -65,6 +65,9 @@ const PlacesData = [
 ];
 
 const Places = ({ handleOrderPopup }) => {
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  },[])
   return (
     <>
       <div className="dark:bg-gray-900 dark:text-white bg-gray-50 py-10">
