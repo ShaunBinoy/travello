@@ -1,11 +1,11 @@
 import React from "react";
 
-const Hero = () => {
+const Hero = ({text}) => {
   const [priceValue, setPriceValue] = React.useState(30);
 
   return (
-    <div className=" bg-black/20 h-full">
-      <div className="h-full flex justify-center items-center p-4 bg-primary/10 ">
+    <div className=" h-full z-10 justify-center ">
+      <div className="h-full flex justify-center items-center p-4 ">
         <div className="container grid grid-cols-1 gap-4">
           <div className="text-white">
             <p data-aos="fade-up" className="text-sm">
@@ -16,7 +16,7 @@ const Hero = () => {
               data-aos-delay="300"
               className="font-bold text-3xl"
             >
-              Search Your Destination
+              {`Explore ${text} with us`}
             </p>
           </div>
           <div
