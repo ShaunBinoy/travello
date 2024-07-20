@@ -71,7 +71,7 @@ const PlacesData = [
   //   },
 ];
 
-const HomePlace = ({ handleOrderPopup }) => {
+const HomePlace = ({ handleOrderPopup,setDestination }) => {
   return (
     <>
       <div className="dark:bg-gray-900 dark:text-white bg-gray-50 py-10">
@@ -89,6 +89,7 @@ const HomePlace = ({ handleOrderPopup }) => {
             {PlacesData.map((item, index) => (
               <PlaceCard
                 handleOrderPopup={handleOrderPopup}
+                setDestination={setDestination}
                 key={index}
                 {...item}
               />

@@ -14,9 +14,8 @@ import { Carousel } from "antd";
 
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
+  const [destination, setDestination] = React.useState('');
   
-  
-
   const handleOrderPopup = () => {
     setOrderPopup(!orderPopup);
   };
@@ -51,7 +50,7 @@ const Home = () => {
             ))}
           </Carousel>
         </div>
-        <HomePlace handleOrderPopup={handleOrderPopup} />
+        <HomePlace handleOrderPopup={handleOrderPopup} setDestination={setDestination}/>
         <BannerPic img={BannerImg} />
         <BlogsComp />
         <Banner />
