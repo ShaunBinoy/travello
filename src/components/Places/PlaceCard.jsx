@@ -9,9 +9,8 @@ const PlaceCard = ({
   price,
   type,
   handleOrderPopup,
-  setDestination
+  setDestination,
 }) => {
-
   const handleDestination = () => {
     setDestination(title);
     handleOrderPopup();
@@ -42,7 +41,7 @@ const PlaceCard = ({
             <div className="opacity-80 font-semibold">
               <p>{type}</p>
             </div>
-            <div>{/* <p className="text-2xl font-bold">₹{price}</p> */}</div>
+            {/* <div><p className="text-2xl font-bold">₹{price}</p></div> */}
           </div>
         </div>
       </div>

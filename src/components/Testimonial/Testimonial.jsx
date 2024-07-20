@@ -5,19 +5,19 @@ const testimonialData = [
   {
     id: 1,
     name: "Jishnu",
-    text: "I highly recommend Travello.in for their exceptional service and expertise. They made our corporate retreat a seamless and enjoyable experience.",
+    text: "Everything was good with Travello.in! Lakshadweep was one of my dream destinations, and they made it a reality. The water activities like snorkeling were wonderful, and it was more than we expected. The team was so friendly and polite. The whole trip was enjoyable, peaceful, and adventurous. Truly a once-in-a-lifetime experience!",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 1,
     name: "Abinanth TK",
-    text: "The trip they co ordinated was just wow. Food and over all trip done very neatly.. I suggets every one to contact them for further trips",
+    text: "Travello.in provided a fantastic experience! Lakshadweep had always been on my bucket list, and I’m so glad I chose Travello for this trip. The snorkeling and other water activities were simply wonderful. The entire journey was beyond our expectations, peaceful yet full of adventure. Highly recommended!",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 1,
     name: "Amrutha CEO",
-    text: "I highly recommend Travello.in for their exceptional service and expertise. They made our corporate retreat a seamless and enjoyable experience.",
+    text: "Our trip with Travello.in was exceptional! From the start, everything was good. Lakshadweep, a dream destination for me, did not disappoint. The friendly team made the experience even better. They took special care of my mother, which I deeply appreciated. It was a peaceful and adventurous trip, and I believe everyone should see Lakshadweep at least once with Travello. The best team in the travel industry!",
     img: "https://picsum.photos/103/103",
   },
 ];
