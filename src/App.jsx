@@ -10,6 +10,7 @@ import About from "./pages/About";
 import BlogsDetails from "./pages/BlogsDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ContactUs from "./pages/ContactUs";
 
 const App = () => {
   React.useEffect(() => {
@@ -32,6 +33,7 @@ const App = () => {
             <Route path="best-places" element={<PlacesRoute />} />
             <Route path="about" element={<About />} />
             <Route path="*" element={<NoPage />} />
+            <Route path="contact-us" element={<ContactUs/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
