@@ -121,7 +121,7 @@ const Footer = () => {
                       <a href="https://api.whatsapp.com/send?phone=%2B918848514035&context=ARApTa-M9zmvX2IQu-KNuS-B9Hff8qfNFtBOzZ4dGmjJZtsZWr-xpUXYNaaIkNq3__uMdF5BBYUU3f9K4B6aRQwywS1lNMVVHwvdjo8NDJofzOt27atMXcnt5IKXngVBZpUMRRWOGsZmvx9ygyj2DkTwYg&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwZXh0bgNhZW0CMTAAAR23dmgBZyPNadby5_oxhp82rcPqA8zypFnOHUbrn3ctzP2gvFV_MKehdXo_aem_veets8wdjcplkrWZrUmEZg">
                         <FaWhatsapp className="text-2xl" />
                       </a>
-                      <a href="#">
+                      <a href="tel:+91 88485 14035">
                         <FaPhone className="text-2xl" />
                       </a>
                     </div>
