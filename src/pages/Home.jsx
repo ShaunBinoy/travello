@@ -34,7 +34,7 @@ const Home = () => {
     <>
       <div>
         <div className="h-[700px] relative">
-          <Carousel autoplay arrows dots={false} speed={600} easing="linear">
+          <Carousel autoplay  dots={false} speed={600} easing="linear">
             {carouselItems.map((imgSrc, index) => (
               <div key={index} className="h-[700px] w-full relative">
                 <img
@@ -43,7 +43,7 @@ const Home = () => {
                   className="h-full w-full object-cover "
                 />
                 <div className="absolute top-0 left-0 w-full h-full z-10">
-                  <Hero text={imgSrc.text} />
+                  <Hero text={imgSrc.text} handleOrderPopup={handleOrderPopup}/>
                 </div>
               </div>
             ))}

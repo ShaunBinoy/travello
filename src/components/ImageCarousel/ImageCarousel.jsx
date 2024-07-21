@@ -13,7 +13,7 @@ import image8 from "../../assets/carousel/8.jpeg";
 
 const ImageCarousel = () => {
   return (
-    <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}>
+    <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false} >
       <div>
         <img src={image1} alt="Image 1" />
       </div>
