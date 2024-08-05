@@ -26,7 +26,10 @@ const Banner = () => {
                   data-aos="fade-up"
                   className="text-3xl sm:text-4xl font-bold"
                 >
-                  Explore all corners of The world with us
+                  Our family of <span className="text-blue-500">Three</span>{" "}
+                  turns to a family of the{" "}
+                  <span className="text-blue-500">10 to 20</span> people that
+                  join our trip
                 </h1>
                 <p
                   data-aos="fade-up"
