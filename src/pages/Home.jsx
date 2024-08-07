@@ -12,6 +12,7 @@ import BannerImg from "../assets/cover-women.jpg";
 import Banner2 from "../assets/travel-cover2.jpg";
 import OrderPopup from "../components/OrderPopup/OrderPopup";
 import { Carousel } from "antd";
+import WhyUs from "../components/Why Us/WhyUs";
 
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -25,17 +26,17 @@ const Home = () => {
   const carouselItems = [
     {
       image: Img1,
-      text: "Matheran",
+      text: "Enjoy the Peace of Matheran!",
     },
-    { image: Img2, text: "Lakshadweep" },
-    { image: Img3, text: "Manali" },
+    { image: Img2, text: "Explore the Wonders of Lakshadweep!" },
+    { image: Img3, text: "Discover the Beauty of Kulu Manali!" },
   ];
 
   return (
     <>
       <div>
         <div className="h-[700px] relative">
-          <Carousel autoplay  dots={false} speed={600} easing="linear">
+          <Carousel autoplay dots={false} speed={600} easing="linear">
             {carouselItems.map((imgSrc, index) => (
               <div key={index} className="h-[700px] w-full relative">
                 <img
@@ -44,7 +45,10 @@ const Home = () => {
                   className="h-full w-full object-cover "
                 />
                 <div className="absolute top-0 left-0 w-full h-full z-10">
-                  <Hero text={imgSrc.text} handleOrderPopup={handleOrderPopup}/>
+                  <Hero
+                    text={imgSrc.text}
+                    handleOrderPopup={handleOrderPopup}
+                  />
                 </div>
               </div>
             ))}
@@ -56,10 +60,11 @@ const Home = () => {
           setDescription={setDescription}
         />
         <BannerPic img={BannerImg} />
-        <BlogsComp />
+        <WhyUs />
         <Banner />
-        <BannerPic img={Banner2} />
         <Testimonial />
+        <BannerPic img={Banner2} />
+        <BlogsComp />
         <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup}  description={description} destination={destination} />
       </div>
     </>

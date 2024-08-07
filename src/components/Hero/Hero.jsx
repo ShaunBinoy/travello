@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { Spin, message } from "antd";
 
-const Hero = ({ text,handleOrderPopup }) => {
+const Hero = ({ text, handleOrderPopup }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -71,7 +71,8 @@ const Hero = ({ text,handleOrderPopup }) => {
             data-aos-delay="300"
             className="font-bold text-3xl md:text-5xl capitalize"
           >
-            {`Explore ${text} with us`}
+            {/* {`Explore ${text} with us`} */}
+            {`${text}`}
           </p>
         </div>
         <div
@@ -79,7 +80,7 @@ const Hero = ({ text,handleOrderPopup }) => {
           data-aos-delay="600"
           className="w-full max-w-lg lg:ml-auto relative"
         >
-          <div className="hidden lg:block space-y-4 bg-white rounded-2xl p-4">
+          {/* <div className="hidden lg:block space-y-4 bg-white rounded-2xl p-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 py-3">
               <div>
                 <label htmlFor="name" className="opacity-70">
@@ -90,11 +91,17 @@ const Hero = ({ text,handleOrderPopup }) => {
                   name="name"
                   id="name"
                   placeholder="John"
-                  className={`w-full bg-gray-100 my-2 range accent-primary focus:outline-primary focus:outline outline-1 rounded-full p-2 ${errors.name ? "border-red-500" : "border-gray-300 dark:border-gray-500 dark:bg-gray-800"}`}
+                  className={`w-full bg-gray-100 my-2 range accent-primary focus:outline-primary focus:outline outline-1 rounded-full p-2 ${
+                    errors.name
+                      ? "border-red-500"
+                      : "border-gray-300 dark:border-gray-500 dark:bg-gray-800"
+                  }`}
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
-                {errors.name && <p className="text-red-500 text-xs">{errors.name}</p>}
+                {errors.name && (
+                  <p className="text-red-500 text-xs">{errors.name}</p>
+                )}
               </div>
               <div>
                 <label htmlFor="email" className="opacity-70">
@@ -105,11 +112,17 @@ const Hero = ({ text,handleOrderPopup }) => {
                   name="email"
                   id="email"
                   placeholder="john123@gmail.com"
-                  className={`w-full bg-gray-100 my-2 rounded-full focus:outline-primary focus:outline outline-1 p-2 ${errors.email ? "border-red-500" : "border-gray-300 dark:border-gray-500 dark:bg-gray-800"}`}
+                  className={`w-full bg-gray-100 my-2 rounded-full focus:outline-primary focus:outline outline-1 p-2 ${
+                    errors.email
+                      ? "border-red-500"
+                      : "border-gray-300 dark:border-gray-500 dark:bg-gray-800"
+                  }`}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
-                {errors.email && <p className="text-red-500 text-xs">{errors.email}</p>}
+                {errors.email && (
+                  <p className="text-red-500 text-xs">{errors.email}</p>
+                )}
               </div>
               <div>
                 <label htmlFor="phone" className="opacity-70">
@@ -120,11 +133,17 @@ const Hero = ({ text,handleOrderPopup }) => {
                   name="phone"
                   id="phone"
                   placeholder="+91 9873216540"
-                  className={`w-full bg-gray-100 my-2 range accent-primary focus:outline-primary focus:outline outline-1 rounded-full p-2 ${errors.phone ? "border-red-500" : "border-gray-300 dark:border-gray-500 dark:bg-gray-800"}`}
+                  className={`w-full bg-gray-100 my-2 range accent-primary focus:outline-primary focus:outline outline-1 rounded-full p-2 ${
+                    errors.phone
+                      ? "border-red-500"
+                      : "border-gray-300 dark:border-gray-500 dark:bg-gray-800"
+                  }`}
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                 />
-                {errors.phone && <p className="text-red-500 text-xs">{errors.phone}</p>}
+                {errors.phone && (
+                  <p className="text-red-500 text-xs">{errors.phone}</p>
+                )}
               </div>
               <div className="sm:flex sm:justify-center">
                 <Spin spinning={loading}>
@@ -137,11 +156,11 @@ const Hero = ({ text,handleOrderPopup }) => {
                 </Spin>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="lg:hidden flex justify-center">
             <button
               className="bg-gradient-to-r from-primary to-secondary text-white hover:scale-105 px-4 py-2 rounded-full duration-200 sm:h-10"
-              onClick={()=>handleOrderPopup()}
+              onClick={() => handleOrderPopup()}
             >
               Book Now
             </button>
