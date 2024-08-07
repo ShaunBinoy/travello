@@ -6,6 +6,7 @@ const PlaceCard = ({
   title,
   location,
   description,
+  smallDescription,
   price,
   type,
   handleOrderPopup,
@@ -39,12 +40,12 @@ const PlaceCard = ({
             <IoLocationSharp />
             <span>{location}</span>
           </div>
-          <p className="line-clamp-2">{description}</p>
+          <p className="line-clamp-2">{smallDescription}</p>
           <div className="flex items-center justify-between border-t-2 py-3 !mt-3">
             <div className="opacity-80 font-semibold">
               <p>{type}</p>
             </div>
-            {/* <div><p className="text-2xl font-bold">₹{price}</p></div> */}
+            <div><p className="text-xl font-bold">₹{price}</p></div>
           </div>
         </div>
       </div>

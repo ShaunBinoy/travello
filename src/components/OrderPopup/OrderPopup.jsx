@@ -3,7 +3,12 @@ import { IoCloseOutline } from "react-icons/io5";
 import axios from "axios";
 import { Spin, message } from "antd";
 
-const OrderPopup = ({ orderPopup, setOrderPopup, destination,description }) => {
+const OrderPopup = ({
+  orderPopup,
+  setOrderPopup,
+  destination,
+  description,
+}) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -12,10 +17,10 @@ const OrderPopup = ({ orderPopup, setOrderPopup, destination,description }) => {
 
   const validateForm = () => {
     const newErrors = {};
-    if (!name.trim()) 
-      {newErrors.name = "Name is required";}
-    else if(typeof(name)!=='string'){
-      newErrors.name="Invalid name"
+    if (!name.trim()) {
+      newErrors.name = "Name is required";
+    } else if (typeof name !== "string") {
+      newErrors.name = "Invalid name";
     }
     if (!email.trim()) {
       newErrors.email = "Email is required";
@@ -65,13 +70,19 @@ const OrderPopup = ({ orderPopup, setOrderPopup, destination,description }) => {
     <>
       {orderPopup && (
         <div className="h-screen w-screen fixed top-0 left-0 bg-black/50 z-50 backdrop-blur-sm">
-          <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-4 shadow-md bg-white dark:bg-gray-900 rounded-md duration-200 w-[300px]">
+          <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-4 shadow-md bg-white dark:bg-gray-900 rounded-md duration-200 md:w-[500px] w-[300px] overflow-y-auto max-h-[80vh]">
             {/* Header */}
             <div className="flex items-center justify-between">
               <div>
-                <h1 className="text-xl font-semibold text-black/70">
-                  Book Your Trip
-                </h1>
+                {destination ? (
+                  <h1 className="text-2xl font-bold text-black/80">
+                    {destination}
+                  </h1>
+                ) : (
+                  <h1 className="text-2xl font-semibold text-black/70">
+                    Book Your Trip
+                  </h1>
+                )}
               </div>
               <div>
                 <IoCloseOutline
@@ -82,33 +93,49 @@ const OrderPopup = ({ orderPopup, setOrderPopup, destination,description }) => {
             </div>
             {/* Body */}
             <div className="mt-4">
-              <div>
-                {description}
-              </div>
+              <div dangerouslySetInnerHTML={{ __html: description }} />
               <input
                 type="text"
                 placeholder="Name"
-                className={`w-full rounded-full border px-2 py-1 mb-4 ${errors.name ? "border-red-500" : "border-gray-300 dark:border-gray-500 dark:bg-gray-800"}`}
+                className={`w-full rounded-full border px-2 py-1 mb-4 mt-4 ${
+                  errors.name
+                    ? "border-red-500"
+                    : "border-gray-300 dark:border-gray-500 dark:bg-gray-800"
+                }`}
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
-              {errors.name && <p className="text-red-500 text-xs">{errors.name}</p>}
+              {errors.name && (
+                <p className="text-red-500 text-xs">{errors.name}</p>
+              )}
               <input
                 type="email"
                 placeholder="Email"
-                className={`w-full rounded-full border px-2 py-1 mb-4 ${errors.email ? "border-red-500" : "border-gray-300 dark:border-gray-500 dark:bg-gray-800"}`}
+                className={`w-full rounded-full border px-2 py-1 mb-4 ${
+                  errors.email
+                    ? "border-red-500"
+                    : "border-gray-300 dark:border-gray-500 dark:bg-gray-800"
+                }`}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
-              {errors.email && <p className="text-red-500 text-xs">{errors.email}</p>}
+              {errors.email && (
+                <p className="text-red-500 text-xs">{errors.email}</p>
+              )}
               <input
                 type="text"
                 placeholder="Phone Number"
-                className={`w-full rounded-full border px-2 py-1 mb-4 ${errors.phone ? "border-red-500" : "border-gray-300 dark:border-gray-500 dark:bg-gray-800"}`}
+                className={`w-full rounded-full border px-2 py-1 mb-4 ${
+                  errors.phone
+                    ? "border-red-500"
+                    : "border-gray-300 dark:border-gray-500 dark:bg-gray-800"
+                }`}
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
               />
-              {errors.phone && <p className="text-red-500 text-xs">{errors.phone}</p>}
+              {errors.phone && (
+                <p className="text-red-500 text-xs">{errors.phone}</p>
+              )}
               <div className="flex justify-center">
                 <Spin spinning={loading}>
                   <button

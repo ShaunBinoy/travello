@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero/Hero";
-import Img1 from "../assets/video/aswin-chembath-9fu4DgPWVBE-unsplash.jpg";
-import Img2 from "../assets/video/1094.jpg";
+import Img1 from "../assets/video/nepal.jpg";
+import Img2 from "../assets/video/lakshadweep.jpg";
 import Img3 from "../assets/video/anurag-bhgsain-eJdiDYIzq9M-unsplash.jpg";
 import BlogsComp from "../components/Blogs/BlogsComp";
 import HomePlace from "../components/Places/HomePlace";
@@ -17,7 +17,7 @@ import WhyUs from "../components/Why Us/WhyUs";
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
   const [destination, setDestination] = React.useState("");
-  const [description,setDescription]= React.useState("");
+  const [description, setDescription] = React.useState("");
 
   const handleOrderPopup = () => {
     setOrderPopup(!orderPopup);
@@ -26,7 +26,7 @@ const Home = () => {
   const carouselItems = [
     {
       image: Img1,
-      text: "Enjoy the Peace of Matheran!",
+      text: "Enjoy the Peace of Nepal!",
     },
     { image: Img2, text: "Explore the Wonders of Lakshadweep!" },
     { image: Img3, text: "Discover the Beauty of Kulu Manali!" },
@@ -65,7 +65,12 @@ const Home = () => {
         <Testimonial />
         <BannerPic img={Banner2} />
         <BlogsComp />
-        <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup}  description={description} destination={destination} />
+        <OrderPopup
+          orderPopup={orderPopup}
+          setOrderPopup={setOrderPopup}
+          description={description}
+          destination={destination}
+        />
       </div>
     </>
   );

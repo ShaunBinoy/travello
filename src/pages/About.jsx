@@ -6,6 +6,7 @@ import Location from "../components/Location/Location";
 import Testimonial from "../components/Testimonial/Testimonial";
 import ImageCarousel from "../components/ImageCarousel/ImageCarousel";
 import aboutBanner from "../assets/about_banner.jpg";
+import { FaShieldAlt, FaMedal, FaUserTie, FaPiggyBank } from "react-icons/fa";
 
 const AboutUs = () => {
   return (
@@ -37,14 +38,14 @@ const AboutUs = () => {
         </div>
         <div className="lg:w-1/2 px-4">
           <p className="mb-4">
-            Founded in [Year], [Company Name] has grown to become a leader in
-            our field. Our mission is to create lasting value for our clients by
+            Founded in 2023, Travello.in has grown to become a leader in our
+            field. Our mission is to create lasting value for our clients by
             offering top-notch services and unparalleled customer support. We
             believe in building long-term relationships based on trust,
             transparency, and mutual respect.
           </p>
           <p>
-            At [Company Name], we are passionate about what we do and are always
+            At Travello.in, we are passionate about what we do and are always
             looking for new ways to improve and innovate. Our vision is to be
             the go-to provider in our industry, known for our commitment to
             quality, reliability, and customer satisfaction.
@@ -62,13 +63,55 @@ const AboutUs = () => {
         <div className="lg:w-1/2 bg-gray-200 p-4">
           <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
           <p>
-            Our mission at [Company Name] is to deliver exceptional value and
-            service to our clients. We aim to be a leader in our industry by
-            continuously improving and innovating our services. We are committed
-            to sustainable and responsible practices that benefit our clients,
-            employees, and the communities we serve.
+            At Travello.In , our mission is to create unforgettable journeys
+            filled with joy and positivity. We specialize in curating travel
+            experiences that bring happiness to every moment, whether it's
+            through breathtaking landscapes, cultural encounters, or serene
+            getaways. We believe that travel is not just about the destination
+            but the emotions and memories it inspires. Our goal is to craft
+            personalized itineraries that reflect your unique desires and ensure
+            each adventure is as fulfilling and delightful as possible. Join us
+            in exploring the world with a heart full of happiness!
           </p>
-          <ul className="list-disc list-inside mb-4 text-gray-700 space-y-2">
+          {/* Why Choose Us Section */}
+          <div className="mt-8">
+            {/* <h1 className="text-2xl font-bold mb-4">Why Choose Us?</h1> */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+              <div className="flex flex-col items-center text-center">
+                <FaShieldAlt className="text-black/70 text-4xl mb-4" />
+                <h2 className="text-xl font-semibold mb-2">Trust</h2>
+                {/* <p>
+                  We prioritize your trust with our reliable services and
+                  transparent policies.
+                </p> */}
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <FaMedal className="text-black/70 text-4xl mb-4" />
+                <h2 className="text-xl font-semibold mb-2">Experience</h2>
+                {/* <p>
+                  With years of experience, we offer top-notch solutions
+                  tailored to your needs.
+                </p> */}
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <FaUserTie className="text-black/70 text-4xl mb-4" />
+                <h2 className="text-xl font-semibold mb-2">Experts</h2>
+                {/* <p>
+                  Our team consists of industry experts dedicated to delivering
+                  the best results.
+                </p> */}
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <FaPiggyBank className="text-black/70 text-4xl mb-4" />
+                <h2 className="text-xl font-semibold mb-2">Economic</h2>
+                {/* <p>
+                  We provide cost-effective solutions without compromising on
+                  quality.
+                </p> */}
+              </div>
+            </div>
+          </div>
+          {/* <ul className="list-disc list-inside mb-4 text-gray-700 space-y-2">
             {" "}
             <li>
               At Travello.in, we offer personalized travel planning services
@@ -87,7 +130,7 @@ const AboutUs = () => {
               arrangements so you can remain focused on your professional
               commitments.
             </li>{" "}
-          </ul>
+          </ul> */}
         </div>
       </div>
 

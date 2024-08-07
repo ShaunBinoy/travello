@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import PlaceCard from "./PlaceCard";
-import { PlacesData } from "./placeData";
+import { PlacesData2 } from "./placeData2";
 
-const Places = ({ handleOrderPopup, setDestination,setDescription }) => {
+const Places = ({ handleOrderPopup, setDestination, setDescription }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -15,7 +15,7 @@ const Places = ({ handleOrderPopup, setDestination,setDescription }) => {
             Best Places to Visit
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {PlacesData.map((item, index) => (
+            {PlacesData2.map((item, index) => (
               <PlaceCard
                 key={index}
                 setDestination={setDestination}

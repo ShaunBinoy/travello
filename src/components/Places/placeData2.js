@@ -2,8 +2,12 @@ import Img1 from "../../assets/places/boat.jpg";
 import Img2 from "../../assets/places/tajmahal.jpg";
 import Img3 from "../../assets/places/vietnam.jpg";
 import Img4 from "../../assets/places/nepal.jpg";
+import Img5 from "../../assets/places/goa.jpg";
+import Img6 from "../../assets/places/jammu.jpg";
+import Img7 from "../../assets/places/munnar.jpg";
+import Img8 from "../../assets/places/wayanad.jpg";
 
-export const PlacesData = [
+export const PlacesData2 = [
   {
     img: Img1,
     title: "Lakshadweep",
@@ -87,5 +91,87 @@ export const PlacesData = [
                       `,
     price: "21,999",
     type: "4 Day / 3 Night",
+  },
+  {
+    img: Img5,
+    title: "Goa",
+    location: "India",
+    smallDescription:
+      "Explore the vibrant beaches and lively nightlife of Goa.",
+    description: `
+      <b>Travel Days</b>
+      <p>3 Days & 2 Nights</p>
+      <b>Package includes</b>
+      <p>🔹 Breakfast & Dinner</p>
+      <p>🔹 Standard AC room accommodation.</p>
+      <p>🔹 Railway Station Pickup and Drop</p>
+      <p>🔹 Hotel stay 2 Nights</p>
+      <p>🔹 Tour by Private cab with driver</p>
+      <b>Places Visiting</b>
+      <p>🔹 North Goa</p>
+      <p>🔹 South Goa</p>
+                      `,
+    price: "5,999",
+    type: "3 Day / 2 Night",
+  },
+  {
+    img: Img6,
+    title: "Jammu and Kashmir",
+    location: "India",
+    smallDescription:
+      "Experience the serene beauty and majestic landscapes of Jammu & Kashmir.",
+    description: `
+      <b>Travel Days</b>
+      <p>5 Days & 4 Nights</p>
+      <b>Package includes</b>
+      <p>🔹 Breakfast & Dinner</p>
+      <p>🔹 Srinagar hotel 4 Nights</p>
+      <p>🔹 Srinagar Airport/Railway station pickup & drop</p>
+      <p>🔹 Private Car with driver-4 Days</p>
+      <b>Other Activities</b>
+      <p>🔹 Shikhara rider (1 hr)</p>
+      <b>Places Visiting</b>
+      <p>🔹 Shalimar bagh</p>
+      <p>🔹 Hazratbal Shrine</p>
+      <p>🔹 Nishanth bagh</p>
+      <p>🔹 Gulmargh</p>
+      
+                      `,
+    price: "11,999",
+    type: "5 Day / 4 Night",
+  },
+  {
+    img: Img7,
+    title: "Munnar",
+    location: "India",
+    smallDescription:
+      "Marvel at the rolling tea plantations and cool climate of Munnar.",
+    description: `
+      <b>Travel Days</b>
+      <p>2 Days & 1 Night</p>
+      <b>Package includes</b>
+      <p>🔹 Breakfast, Lunch & Dinner</p>
+      <p>🔹 Standard AC room accommodation.</p>
+      <p>🔹 Site Seeing</p>
+                      `,
+    price: "2,999",
+    type: "2 Day / 1 Night",
+  },
+  {
+    img: Img8,
+    title: "Wayanad",
+    location: "India",
+    smallDescription:
+      "Explore the lush greenery and tranquil forests of Wayanad.",
+    description: `
+      <b>Travel Days</b>
+      <p>2 Days & 1 Night</p>
+      <b>Package includes</b>
+      <p>🔹 Breakfast, Lunch & Dinner</p>
+      <p>🔹 Standard AC room accommodation.</p>
+      <p>🔹 Site Seeing</p>
+                      `,
+    price: "2,999",
+    type: "2 Day / 1 Night",
   },
 ];
