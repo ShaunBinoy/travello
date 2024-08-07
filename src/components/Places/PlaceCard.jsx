@@ -10,9 +10,12 @@ const PlaceCard = ({
   type,
   handleOrderPopup,
   setDestination,
+  setDescription
 }) => {
   const handleDestination = () => {
     setDestination(title);
+    setDescription(description)
+    
     handleOrderPopup();
   };
 

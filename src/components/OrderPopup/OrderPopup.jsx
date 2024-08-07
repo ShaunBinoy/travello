@@ -3,7 +3,7 @@ import { IoCloseOutline } from "react-icons/io5";
 import axios from "axios";
 import { Spin, message } from "antd";
 
-const OrderPopup = ({ orderPopup, setOrderPopup, destination }) => {
+const OrderPopup = ({ orderPopup, setOrderPopup, destination,description }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -82,6 +82,9 @@ const OrderPopup = ({ orderPopup, setOrderPopup, destination }) => {
             </div>
             {/* Body */}
             <div className="mt-4">
+              <div>
+                {description}
+              </div>
               <input
                 type="text"
                 placeholder="Name"
