@@ -44,12 +44,12 @@ const PlacesData = [
     type: "3 Day / 2 Night",
   },
   {
-    img: Img4,
-    title: "Vattavada",
-    location: "Kerala",
-    description: "Discover Vattavada's serene hills and lush landscapes in Kerala.",
-    price: "1,999",
-    type: "2 Day / 1 Night",
+    img: Img6,
+    title: "Nepal",
+    location: "Nepal",
+    description: "Experience the peaceful charm and natural beauty of Nepal.",
+    price: "1,700",
+    type: "3 Day / 2 Night",
   },
   //   {
   //     img: Img5,
@@ -71,7 +71,7 @@ const PlacesData = [
   //   },
 ];
 
-const HomePlace = ({ handleOrderPopup,setDestination }) => {
+const HomePlace = ({ handleOrderPopup, setDestination }) => {
   return (
     <>
       <div className="dark:bg-gray-900 dark:text-white bg-gray-50 py-10">

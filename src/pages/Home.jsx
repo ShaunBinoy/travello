@@ -12,6 +12,7 @@ import BannerImg from "../assets/cover-women.jpg";
 import Banner2 from "../assets/travel-cover2.jpg";
 import OrderPopup from "../components/OrderPopup/OrderPopup";
 import { Carousel } from "antd";
+import WhyUs from "../components/Why Us/WhyUs";
 
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -57,6 +58,7 @@ const Home = () => {
           setDestination={setDestination}
         />
         <BannerPic img={BannerImg} />
+        <WhyUs />
         <Banner />
         <Testimonial />
         <BannerPic img={Banner2} />

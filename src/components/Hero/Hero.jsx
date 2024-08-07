@@ -80,7 +80,7 @@ const Hero = ({ text, handleOrderPopup }) => {
           data-aos-delay="600"
           className="w-full max-w-lg lg:ml-auto relative"
         >
-          <div className="hidden lg:block space-y-4 bg-white rounded-2xl p-4">
+          {/* <div className="hidden lg:block space-y-4 bg-white rounded-2xl p-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 py-3">
               <div>
                 <label htmlFor="name" className="opacity-70">
@@ -156,7 +156,7 @@ const Hero = ({ text, handleOrderPopup }) => {
                 </Spin>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="lg:hidden flex justify-center">
             <button
               className="bg-gradient-to-r from-primary to-secondary text-white hover:scale-105 px-4 py-2 rounded-full duration-200 sm:h-10"
