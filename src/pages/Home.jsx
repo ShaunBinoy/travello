@@ -45,10 +45,11 @@ const Home = () => {
                   alt={`Carousel image ${index + 1}`}
                   className="h-full w-full object-cover "
                 />
-                <div className="absolute top-0 left-0 w-full h-full z-10">
+                {/* <div className="absolute top-0 left-0 w-full h-full z-10 "> */}
+                <div className="absolute top-0 left-0 w-full h-full z-10 flex items-center justify-center">
                   <Hero
                     text={imgSrc.text}
-                    handleOrderPopup={handleOrderPopup}
+                    // handleOrderPopup={handleOrderPopup}
                   />
                 </div>
               </div>
@@ -74,14 +75,14 @@ const Home = () => {
         />
 
         {/* WhatsApp Floating Button */}
-        <a
+        {/* <a
           href="tel:+91 8848514035"
           
           rel="noopener noreferrer"
           className="fixed bottom-4 right-4 z-50 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300"
         >
           <FaWhatsapp size={32} />
-        </a>
+        </a> */}
       </div>
     </>
   );

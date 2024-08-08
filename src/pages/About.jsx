@@ -46,7 +46,7 @@ const AboutUs = () => {
         </div>
         <div className="lg:w-1/2 px-4">
           <p className="mb-4">
-            Founded in 2023, Travello.in has grown to become a leader in our
+            Founded in 2020, Travello.in has grown to become a leader in our
             field. Our mission is to create lasting value for our clients by
             offering top-notch services and unparalleled customer support. We
             believe in building long-term relationships based on trust,
@@ -170,13 +170,13 @@ const AboutUs = () => {
 
       <Testimonial />
       <Location />
-      <a
-        href="tel:+91 8848514035"
-        rel="noopener noreferrer"
+      {/* <a
+        href="https://api.whatsapp.com/send?phone=%2B918848514035&context=ARApTa-M9zmvX2IQu-KNuS-B9Hff8qfNFtBOzZ4dGmjJZtsZWr-xpUXYNaaIkNq3__uMdF5BBYUU3f9K4B6aRQwywS1lNMVVHwvdjo8NDJofzOt27atMXcnt5IKXngVBZpUMRRWOGsZmvx9ygyj2DkTwYg&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwZXh0bgNhZW0CMTAAAR23dmgBZyPNadby5_oxhp82rcPqA8zypFnOHUbrn3ctzP2gvFV_MKehdXo_aem_veets8wdjcplkrWZrUmEZg"
+        // rel="noopener noreferrer"
         className="fixed bottom-4 right-4 z-50 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300"
       >
         <FaWhatsapp size={32} />
-      </a>
+      </a> */}
     </div>
   );
 };

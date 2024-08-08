@@ -63,7 +63,10 @@ const Hero = ({ text, handleOrderPopup }) => {
     <div className="h-full z-10 flex justify-center items-center">
       <div className="container mx-auto p-4 flex flex-col lg:flex-row items-center gap-4">
         <div className="text-white text-center lg:text-left">
-          <p data-aos="fade-up" className="text-sm">
+          <p
+            data-aos="fade-up"
+            className="text-base flex justify-center items-center"
+          >
             Our Packages
           </p>
           <p
@@ -75,12 +78,12 @@ const Hero = ({ text, handleOrderPopup }) => {
             {`${text}`}
           </p>
         </div>
-        <div
+        {/* <div
           data-aos="fade-up"
           data-aos-delay="600"
           className="w-full max-w-lg lg:ml-auto relative"
         >
-          {/* <div className="hidden lg:block space-y-4 bg-white rounded-2xl p-4">
+          <div className="hidden lg:block space-y-4 bg-white rounded-2xl p-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 py-3">
               <div>
                 <label htmlFor="name" className="opacity-70">
@@ -156,7 +159,7 @@ const Hero = ({ text, handleOrderPopup }) => {
                 </Spin>
               </div>
             </div>
-          </div> */}
+          </div>
           <div className="lg:hidden flex justify-center">
             <button
               className="bg-gradient-to-r from-primary to-secondary text-white hover:scale-105 px-4 py-2 rounded-full duration-200 sm:h-10"
@@ -165,7 +168,7 @@ const Hero = ({ text, handleOrderPopup }) => {
               Book Now
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

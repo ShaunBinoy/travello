@@ -33,7 +33,7 @@ const App = () => {
             <Route path="best-places" element={<PlacesRoute />} />
             <Route path="about" element={<About />} />
             <Route path="*" element={<NoPage />} />
-            <Route path="contact-us" element={<ContactUs/>}/>
+            <Route path="contact-us" element={<ContactUs />} />
           </Route>
         </Routes>
       </BrowserRouter>
