@@ -1,39 +1,39 @@
 import React from "react";
 import Slider from "react-slick";
-import Img1 from "../../assets/review/1.jpg";
+import Img1 from "../../assets/review/akhil.jpg";
 import Img2 from "../../assets/review/2.jpeg";
-import Img3 from "../../assets/review/3.jpg";
+import Img3 from "../../assets/review/dileep.jpg";
 import Img4 from "../../assets/review/4.jpeg";
-import Img5 from "../../assets/review/5.jpg";
+import Img5 from "../../assets/review/munnar.jpg";
 
 const testimonialData = [
   {
     id: 1,
-    name: "Jishnu",
+    name: "Akhilnath",
     text: "We booked the Lakshadweep package through Travello.in for our family group of 10, and it was a fantastic experience! The accommodations were perfect, and the itinerary was well-planned, ensuring everyone had a great time. The customer service was exceptional, handling all our needs and queries promptly. The entire trip was hassle-free and enjoyable, thanks to Travello.in. Highly recommended for family vacations!",
     img: Img1,
   },
   {
     id: 1,
-    name: "Abinanth TK",
+    name: "Shimil Dev",
     text: "Our honeymoon in Wayanad booked through Travello.in was absolutely magical! The package included a beautiful resort and romantic activities that made our trip unforgettable. The seamless booking process and attentive customer service ensured that we could focus on enjoying our time together. Travello.in took care of every detail, making our honeymoon stress-free and perfect. We highly recommend Travello.in for a memorable honeymoon experience!",
     img: Img2,
   },
   {
     id: 1,
-    name: "Akhilnath",
+    name: "Dileep",
     text: "Our friends' trip to Kulu Manali with Travello.in was amazing! The package included great accommodations and thrilling activities that kept us entertained throughout. The booking process was smooth, and the customer support was always available to assist us. Travello.in made sure our trip was well-organized and enjoyable, allowing us to make the most of our time together. We had a blast and highly recommend Travello.in for group trips!",
     img: Img3,
   },
   {
     id: 1,
-    name: "Sreerag",
+    name: "Rishi",
     text: "Travello.in made our couple's trip to Nepal truly special. From the scenic accommodations to the exciting excursions, everything was perfectly arranged. The booking process was straightforward, and the customer service was excellent, ensuring we had everything we needed. Travello.in's attention to detail made our trip stress-free and unforgettable. We couldn't have asked for a better experience and highly recommend Travello.in for couple getaways!",
     img: Img4,
   },
   {
     id: 1,
-    name: "Amrutha",
+    name: "Midhun",
     text: "Our honeymoon in Munnar with Travello.in was a dream come true! The package included a charming resort and romantic activities that made our trip unforgettable. The booking process was effortless, and the customer support was always available to help. Travello.in took care of all the details, allowing us to relax and enjoy our special time together. We highly recommend Travello.in for a perfect honeymoon experience!",
     img: Img5,
   },

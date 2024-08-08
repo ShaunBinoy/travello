@@ -80,17 +80,17 @@ export const PlacesData2 = [
       "Discover Nepal's majestic Himalayas, ancient temples, and rich cultural heritage.",
     description: `
       <b>Travel Days</b>
-      <p>4 Days & 3 Nights</p>
+      <p>8 Days & 7 Nights</p>
       <b>Package includes</b>
       <p>🔹 Breakfast & Dinner</p>
       <p>🔹 Standard AC room accommodation.</p>
       <p>🔹 Site Seeing</p>
-      <p>🔹 Hotel stay 3 Nights</p>
+      <p>🔹 Hotel stay 7 Nights</p>
       <p>🔹 Tour by Private cab with driver</p>
       <p>🔹 Airport Pickup and Drop</p>
                       `,
-    price: "21,999",
-    type: "4 Day / 3 Night",
+    price: "14,999",
+    type: "8 Day / 7 Night",
   },
   {
     img: Img5,

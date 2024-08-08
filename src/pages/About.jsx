@@ -6,7 +6,13 @@ import Location from "../components/Location/Location";
 import Testimonial from "../components/Testimonial/Testimonial";
 import ImageCarousel from "../components/ImageCarousel/ImageCarousel";
 import aboutBanner from "../assets/about_banner.jpg";
-import { FaShieldAlt, FaMedal, FaUserTie, FaPiggyBank, FaWhatsapp } from "react-icons/fa";
+import {
+  FaShieldAlt,
+  FaMedal,
+  FaUserTie,
+  FaPiggyBank,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 const AboutUs = () => {
   return (
@@ -25,15 +31,17 @@ const AboutUs = () => {
       <div className="container flex flex-col lg:flex-row py-8">
         <div className="lg:w-1/2 px-4">
           <p className="mb-4">
-            At Travello.in, we believe in the power of travel to transform
-            lives. Our mission is to create amazing travel experiences that
-            inspire and enrich our clients. With years of experience in the
-            travel industry, we specialize in designing personalized travel
-            plans that suit the unique preferences of every traveler. As a
-            leading travel company, we are committed to providing exceptional
-            service and value. Whether you're looking for luxury, adventure, or
-            cultural exploration, Travello.in is here to make your travel dreams
-            come true.
+            Amrutha is the founder of Travello.in, a boutique travel service
+            dedicated to curating joyful journeys. With a passion for crafting
+            unforgettable experiences, specializes in creating itineraries that
+            bring happiness and adventure to every traveler. Whether it's a
+            serene beach escape, a cultural immersion, or a thrilling adventure,
+            Travello.in tailors each trip to meet the unique desires of their
+            clients. Travello believes that travel should be a source of joy,
+            and works tirelessly to ensure every journey is filled with
+            delightful surprises and memorable moments. Let Travello.in turn
+            your travel dreams into a reality and experience the world with a
+            smile.
           </p>
         </div>
         <div className="lg:w-1/2 px-4">
@@ -163,13 +171,12 @@ const AboutUs = () => {
       <Testimonial />
       <Location />
       <a
-          href="tel:+91 8848514035"
-          
-          rel="noopener noreferrer"
-          className="fixed bottom-4 right-4 z-50 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300"
-        >
-          <FaWhatsapp size={32} />
-        </a>
+        href="tel:+91 8848514035"
+        rel="noopener noreferrer"
+        className="fixed bottom-4 right-4 z-50 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300"
+      >
+        <FaWhatsapp size={32} />
+      </a>
     </div>
   );
 };
