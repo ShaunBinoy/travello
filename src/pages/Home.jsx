@@ -13,6 +13,7 @@ import Banner2 from "../assets/travel-cover2.jpg";
 import OrderPopup from "../components/OrderPopup/OrderPopup";
 import { Carousel } from "antd";
 import WhyUs from "../components/Why Us/WhyUs";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -71,6 +72,16 @@ const Home = () => {
           description={description}
           destination={destination}
         />
+
+        {/* WhatsApp Floating Button */}
+        <a
+          href="tel:+91 8848514035"
+          
+          rel="noopener noreferrer"
+          className="fixed bottom-4 right-4 z-50 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300"
+        >
+          <FaWhatsapp size={32} />
+        </a>
       </div>
     </>
   );
