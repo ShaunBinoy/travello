@@ -6,7 +6,7 @@ import Location from "../components/Location/Location";
 import Testimonial from "../components/Testimonial/Testimonial";
 import ImageCarousel from "../components/ImageCarousel/ImageCarousel";
 import aboutBanner from "../assets/about_banner.jpg";
-import { FaShieldAlt, FaMedal, FaUserTie, FaPiggyBank } from "react-icons/fa";
+import { FaShieldAlt, FaMedal, FaUserTie, FaPiggyBank, FaWhatsapp } from "react-icons/fa";
 
 const AboutUs = () => {
   return (
@@ -162,6 +162,14 @@ const AboutUs = () => {
 
       <Testimonial />
       <Location />
+      <a
+          href="tel:+91 8848514035"
+          
+          rel="noopener noreferrer"
+          className="fixed bottom-4 right-4 z-50 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300"
+        >
+          <FaWhatsapp size={32} />
+        </a>
     </div>
   );
 };
