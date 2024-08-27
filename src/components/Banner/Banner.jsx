@@ -36,7 +36,7 @@ const Banner = () => {
                   className="text-sm text-gray-500 tracking-wide leading-8"
                 >
                   Discover top travel packages at Travello.in! Explore
-                  adventure, relaxation, and culture with our curated trips
+                  adventure, relaxation, and culture with our affordable packages
                   worldwide. Book your dream vacation today!
                   <br />
                 </p>

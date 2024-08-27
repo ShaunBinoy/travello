@@ -11,8 +11,7 @@ const WhyUs = () => {
           <FaShieldAlt className="text-blue-500 text-4xl mb-4" />
           <h2 className="text-xl font-semibold mb-2">Trust</h2>
           <p>
-            We prioritize your trust with our reliable services and transparent
-            policies.
+          We prioritize your trust with our reliable tour packages and transparent policies.
           </p>
         </div>
         <div className="flex flex-col items-center text-center">
@@ -35,7 +34,7 @@ const WhyUs = () => {
           <FaPiggyBank className="text-blue-500 text-4xl mb-4" />
           <h2 className="text-xl font-semibold mb-2">Economic</h2>
           <p>
-            We provide cost-effective solutions without compromising on quality.
+          We offer affordable travel packages without compromising on quality.
           </p>
         </div>
       </div>

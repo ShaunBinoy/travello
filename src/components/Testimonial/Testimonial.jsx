@@ -10,7 +10,7 @@ const testimonialData = [
   {
     id: 1,
     name: "Akhilnath",
-    text: "We booked the Lakshadweep package through Travello.in for our family group of 10, and it was a fantastic experience! The accommodations were perfect, and the itinerary was well-planned, ensuring everyone had a great time. The customer service was exceptional, handling all our needs and queries promptly. The entire trip was hassle-free and enjoyable, thanks to Travello.in. Highly recommended for family vacations!",
+    text: "We booked the Lakshadweep package through Travello.in for our family group of 10, and it was a fantastic experience! The accommodations were perfect, and the itinerary was well-planned, ensuring everyone had a great time. The customer service was exceptional, handling all our needs and queries promptly. The entire trip was hassle-free and enjoyable, thanks to Travello.in. Whether you're looking for tour packages from Kerala to Lakshadweep, Travello.in has you covered. Highly recommended for family vacations!",
     img: Img1,
   },
   {
@@ -22,13 +22,13 @@ const testimonialData = [
   {
     id: 1,
     name: "Dileep",
-    text: "Our friends' trip to Kulu Manali with Travello.in was amazing! The package included great accommodations and thrilling activities that kept us entertained throughout. The booking process was smooth, and the customer support was always available to assist us. Travello.in made sure our trip was well-organized and enjoyable, allowing us to make the most of our time together. We had a blast and highly recommend Travello.in for group trips!",
+    text: "Our friends' trip to Kulu Manali with Travello.in was amazing! The package included great accommodations and thrilling activities that kept us entertained throughout. The booking process was smooth, and the customer support was always available to assist us. Travello.in made sure our trip was well-organized and enjoyable, allowing us to make the most of our time together. Whether you're looking for Kulu Manali packages or tour packages from Calicut, Travello.in has you covered. We had a blast and highly recommend Travello.in for group trips!",
     img: Img3,
   },
   {
     id: 1,
     name: "Rishi",
-    text: "Travello.in made our couple's trip to Nepal truly special. From the scenic accommodations to the exciting excursions, everything was perfectly arranged. The booking process was straightforward, and the customer service was excellent, ensuring we had everything we needed. Travello.in's attention to detail made our trip stress-free and unforgettable. We couldn't have asked for a better experience and highly recommend Travello.in for couple getaways!",
+    text: "Travello.in made our couple's trip to Nepal truly special. From the scenic accommodations to the exciting excursions, everything was perfectly arranged. The booking process was straightforward, and the customer service was excellent, ensuring we had everything we needed. Travello.in's attention to detail made our trip stress-free and unforgettable. Whether you're looking for a romantic escape or tour packages from Kerala, Travello.in is the way to go. We couldn't have asked for a better experience and highly recommend Travello.in for couple getaways!",
     img: Img4,
   },
   {

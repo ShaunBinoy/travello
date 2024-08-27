@@ -13,7 +13,7 @@ export const PlacesData2 = [
     title: "Lakshadweep",
     location: "India",
     smallDescription:
-      "Explore the clear waters and coral reefs of Lakshadweep, a tropical island paradise.",
+      "Explore the clear waters and coral reefs of Lakshadweep with our exclusive Lakshdweep travel package, a tropical island paradise.",
     description: `
     <b>Travel Days</b>
     <p>4 Days & 3 Nights</p>

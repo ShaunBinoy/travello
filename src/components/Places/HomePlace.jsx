@@ -16,7 +16,7 @@
         <section data-aos="fade-up" className="container">
           <h1 className="my-4 text-center text-4xl font-bold">Popular Packages</h1>
           <p className="text-md text-gray-400 text-center mb-5 max-w-[400px] mx-auto">
-            Discover the best travel packages with Travello.in. From adventure to relaxation, find the perfect trip for you. Book now and start your journey!
+          Discover the best tour packages from Kerala with Travello.in. From adventure to relaxation, find the perfect trip for you. Book now and start your journey!
           </p>  
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             
