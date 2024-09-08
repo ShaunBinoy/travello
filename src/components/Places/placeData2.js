@@ -83,13 +83,15 @@ export const PlacesData2 = [
       <p>8 Days & 7 Nights</p>
       <b>Package includes</b>
       <p>🔹 Breakfast & Dinner</p>
+      <p>🔹 Flight Tickets Inc.</p>
+      <p>🔹 All Entry tickets Inc.</p>
       <p>🔹 Standard AC room accommodation.</p>
       <p>🔹 Site Seeing</p>
       <p>🔹 Hotel stay 7 Nights</p>
       <p>🔹 Tour by Private cab with driver</p>
       <p>🔹 Airport Pickup and Drop</p>
                       `,
-    price: "14,999",
+    price: "49,999",
     type: "8 Day / 7 Night",
   },
   {
